@@ -1,15 +1,9 @@
 const sources = [
-  "http://stream-dc1.radioparadise.com/aac-320", // paradise
-  "http://radiogong-ais-edge-3073-fra-eco-cdn.cast.addradio.de/radiogong/live/mp3/high?ar-distributor=f0b7&aw_0_req.gdpr=true&_art=dj0yJmlwPTYyLjU3LjIuMjcmaWQ9aWNzY3hsLXMzeGRnenhtYiZ0PTE2MTAzODM3MDcmcz03ODY2ZjI5YyNiNzcwYWViOGUxZWU0NWI2MWJlNTAzZWE4OWUyZjQwYw", // party gong
-  "http://ice2.somafm.com/folkfwd-128-mp3", // folk forward
-  "http://94.23.26.22:8090/live.mp3" // punk fm
+  "http://199.241.188.14:2016/Quran-Kareem" // punk fm
 ];
 
 const labels = [
-  [ "Radio Paradise", "https://www.radioparadise.com" ],
-  [ "Party Gong", "https://www.radiogong.de/"],
-  [ "SomaFM Folk Forward", "http://somafm.com/folkfwd/"],
-  [ "Punk FM", " http://www.punkfm.co.uk/"]
+  [ "Radio Quran", "https://Radioquran.stream"]
 ];
 
 let playingIndex = 0; // current radio
